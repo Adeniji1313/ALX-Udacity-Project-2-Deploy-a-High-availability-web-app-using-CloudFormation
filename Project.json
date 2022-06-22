@@ -1,0 +1,18 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "AbbasProject"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "Abbas2"
+    },
+    {
+        "ParameterKey": "ImageId",
+        "ParameterValue": "ami-08d4ac5b634553e16"
+    },
+    {
+        "ParameterKey": "myIp",
+        "ParameterValue": "Your Workstation IP/32"
+    }
+]
