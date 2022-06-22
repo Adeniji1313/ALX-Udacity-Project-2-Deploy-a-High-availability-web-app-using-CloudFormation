@@ -31,17 +31,8 @@ Change the `ParameterValue` of myIP in the Project.Json file to your workstation
 ## Stack Creation
 
 ```
-aws cloudformation create-stack --stack-name Project --template-body file://Project.yml  --parameters file://Project.json --capabilities "CAPABILITY_IAM" "CAPABILITY_NAMED_IAM" --region=us-east-1
+aws cloudformation create-stack --stack-name Project --template-body file://Project.yml  --parameters file://Project.json --capabilities "CAPABILITY_IAM" --region=us-east-1
 ```
 ## Load Balancer Link
 
 http://proje-webap-zelhdyl7ev65-2062816418.us-east-1.elb.amazonaws.com/
-
-
-
-
-
-
-
-
-
