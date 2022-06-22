@@ -219,7 +219,7 @@ Resources:
 Outputs:
   LoadBalancer:
     Description: A reference to the Load Balancer
-    Value: !Ref WebAppLB
+    Value: !GetAtt WebAppLB.DNSName
     Export:
       Name: !Sub ${EnvironmentName}-LB
 
