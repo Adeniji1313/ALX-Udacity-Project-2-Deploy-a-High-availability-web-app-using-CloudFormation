@@ -35,6 +35,8 @@ aws cloudformation create-stack --stack-name Project --template-body file://Proj
 ```
 ## Load Balancer Link
 
+http://proje-webap-zelhdyl7ev65-2062816418.us-east-1.elb.amazonaws.com/
+
 
 
 
